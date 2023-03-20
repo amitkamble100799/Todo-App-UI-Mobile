@@ -182,24 +182,29 @@
 
 @media screen and (min-width:300px) and (max-width:480px) {
      *{
-        margin: auto;
-        max-width: 440px;
+        margin: 0px;
+        padding: 0px;
+
+
     } 
     .container{
         margin-top: 10px;
         margin-left: 1px;
+        margin-right: 0px;
         border: 2px solid #F7F7F7;
-        background-color: #EDEDED;
+        /* background-color: #EDEDED; */
         height: 1282px;
-        width: 380px;
+        width: 370px;
+        align-items: center;
         position: relative;
-        left: 50px;
+        /* left: 50px; */
     }
     .container1{
         height: 50px;
         position: absolute;
         background-color:#FFFFFF;
-        width: 600px;
+        width: 360px;
+        align-items: center;
     }
     .tsk{
         position: relative;
@@ -220,7 +225,7 @@
     .plus {
         margin-top: 40px;
      position: absolute;
-     left: 45%;
+     left: 35%;
      color: #00A5EC;
     }
     .plus:hover {
@@ -231,15 +236,16 @@
         flex-wrap: wrap;  
         flex-direction: column;
         position: absolute;
-        left: 10%;
+        /* left: 20%; */
         gap: 40px;
         padding-top: 20px;
         margin-top: 80px;
         margin-bottom: 100px;
     }
     .bx{
-        height: 250px;
-        width: 300px;
+        align-items: center;
+        height: 200px;
+        width: 280px;
         padding-top: 20px;
         border-radius: 10px;
         background-color: #FFFFFF;
@@ -248,8 +254,8 @@
     .container3{
         display: flex;
         flex-wrap: wrap;
-         position: absolute;
-        left: 10%;
+         position: relative;
+        left: 5%;
         gap: 40px;
         padding-top: 20px;
         margin-top: 80px;
@@ -276,7 +282,7 @@
     }
     .line{
         margin-top: 20px;
-        width: 300px;
+        width: 280px;
         margin-bottom: 10px;
     }
     .inp1{
@@ -304,7 +310,7 @@
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left: 20%;
+        /* left: 20%; */
         top: 120px;
         gap: 40px;
         padding-top: 20px;
@@ -365,8 +371,8 @@
         width: 80px;
         height: 30px;
         text-align: center;
-        left: 45px;
-        top: 50px;
+        left: 165px;
+        top: 55px;
         color:#FFFFFF;
     } 
     .adt:hover{
@@ -389,5 +395,4 @@
         border: 2px solid  #424242;
         
     }
-        
 }

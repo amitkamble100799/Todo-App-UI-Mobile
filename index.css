@@ -188,13 +188,13 @@
 
     } 
     .container{
-        margin-top: 10px;
-        margin-left: 1px;
+        margin-top: 0px;
+        margin-left: 0px;
         margin-right: 0px;
         border: 2px solid #F7F7F7;
         /* background-color: #EDEDED; */
         height: 1282px;
-        width: 370px;
+        width: 350px;
         align-items: center;
         position: relative;
         /* left: 50px; */
@@ -203,7 +203,7 @@
         height: 50px;
         position: absolute;
         background-color:#FFFFFF;
-        width: 360px;
+        width: 350px;
         align-items: center;
     }
     .tsk{
@@ -383,7 +383,7 @@
     }
     .arrow{
         position: relative;
-        top: 70px;
+        top: 10px;
         left: 45px;
         color:  #424242;
         text-decoration: none;

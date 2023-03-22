@@ -194,7 +194,7 @@
         border: 2px solid #F7F7F7;
         /* background-color: #EDEDED; */
         height: 1282px;
-        width: 350px;
+        width: 370px;
         align-items: center;
         position: relative;
         /* left: 50px; */
@@ -203,7 +203,7 @@
         height: 50px;
         position: absolute;
         background-color:#FFFFFF;
-        width: 350px;
+        width: 370px;
         align-items: center;
     }
     .tsk{

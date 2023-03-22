@@ -36,6 +36,8 @@
     border: 1px solid #00A5EC;
 }
 .container2{
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;  
     position: relative;
@@ -45,8 +47,11 @@
     margin-bottom: 40px;
 }
 .bx{
+    justify-content: center;
+    align-items: center;
     height: 250px;
     width: 250px;
+    margin-left: 50px;
      padding-top: 20px;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -57,8 +62,17 @@
     padding-left: 10px;
 }
 .p1{
+    padding: 5px;
     text-decoration: none;
     color: #00A5EC;
+}
+.p1:hover{
+    border: 1px solid #00A5EC;
+    width: fit-content;
+    position: relative;
+    top: 5px;
+    padding: 5px;
+    left: 1px;
 }
 .b:hover{
     border: 1px solid #00A5EC;
@@ -66,7 +80,7 @@
     position: relative;
     top: 5px;
     padding: 0;
-    left: -70px;
+    left: 1px;
 }
 .line{
     margin-top: 20px;
@@ -234,6 +248,7 @@
         flex-direction: column;
         position: absolute;
         gap: 40px;
+        left: -30px;
         padding-top: 20px;
         margin-top: 80px;
         margin-bottom: 100px;
